@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\FloorManager.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\PlayerMotor.cs" />
+    <Compile Include="Assets\Scripts\Score.cs" />
     <Compile Include="Assets\Scripts\UI_ButtonAA.cs" />
     <Compile Include="Assets\Scripts\UI_ButtonLeft.cs" />
     <Compile Include="Assets\Scripts\UI_ButtonRight.cs" />

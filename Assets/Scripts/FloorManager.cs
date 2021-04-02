@@ -17,7 +17,7 @@ public class FloorManager : MonoBehaviour
 
     private void Start()
     {
-        onScreenTilesNumber = 4;
+        onScreenTilesNumber = 10;
 
         for (int i = 0; i < onScreenTilesNumber; i++)
         {

@@ -7,21 +7,17 @@ public class UI_ButtonAA : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
     [SerializeField] private GameObject player;
 
-    void FixedUpdate()
-    {
-        // Access Input Function
-        player.GetComponent<PlayerMotor>().PlayerMove();
-    }
-
     public void OnPointerDown(PointerEventData eventData)
     {
         // Player Accelerate
-        player.GetComponent<PlayerMotor>().PlayerAcceleration();
+        player.GetComponent<PlayerMotor>().isAccelerating = true;
+        Debug.Log("Is Pressed");
     }
 
     public void OnPointerUp(PointerEventData eventData)
     {
-        // Player Attack -- for Now Do Nothing
-        player.GetComponent<PlayerMotor>().PlayerDeceleration();
+        player.GetComponent<PlayerMotor>().isAccelerating = false;
+        Debug.Log("Is Released");
     }
+
 }
