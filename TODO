@@ -1,0 +1,43 @@
+// Move Script
+
+variables
+
+bool ismovingleft
+bool ismovingright
+
+if(ismovingleft) moveright()
+
+if(ismovingright) moveleft()
+
+onbuttondown moveright()
+onbuttonleft moveleft()
+
+onbuttonup deccelerate(), attack()
+onbuttondown accelerate()
+else deccelerate() to moveforward.fixedspeed
+
+// menu event script
+
+bool gameStarted = flase
+
+menuPanel.active()
+
+bool gameStarted = true
+
+menuPanel.active() is false
+
+// attack script
+didn't figure out how yet but will add functionality with empty script
+
+vfx in unity & graphics in unity
+
+// fix procedural generation -- current procedural is suitable for adding more prefabs that requires jumping
+// swap attack for jumping
+
+// fix collision problems
+
+// fix side collision issue by resizing the collider on the obstacles prefab
+
+// add the destructible functionality
+
+// comment code so that others would understand what you did
